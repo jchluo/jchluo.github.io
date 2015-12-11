@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    {% include header.html %}
+  </head>
+
+  <body class="home-template">
+    <!-- start header -->
+    {% include navigation.html %}
+    <!-- end navigation -->
+
+    <!-- start site's main content -->
+    <section class="content-wrap">
+      <div class="container">
+        <div class="row">
+          <!-- start main content -->
+          <main class="col-md-8 main-content">
+            {{ content }}
+          </main>
+          <!-- start sidebar -->
+          {% include sidebar.html %}
+        </div>
+      </div>
+    </section>
+    {% include footer.html %}
+  </body>
+</html>

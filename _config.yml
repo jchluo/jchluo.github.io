@@ -1,0 +1,13 @@
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+
+author:
+  name: jchuo
+  email: jchluo@163.com
+  link: www.jchluo.com
+  github: http://github.com/jchluo
+
+title: jchluo 的博客
+description: jchluo 的博客
+url: www.jchluo.com
+excerpt_separator: <!-- more --> 
